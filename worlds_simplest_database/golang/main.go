@@ -23,6 +23,11 @@ func main() {
 			return
 		}
 
+		if data == nil {
+			fmt.Println("Not Found")
+			return
+		}
+
 		fmt.Println("DATA: ", string(data))
 
 		return
